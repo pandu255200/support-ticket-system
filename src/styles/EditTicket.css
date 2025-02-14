@@ -1,0 +1,74 @@
+/* General container styling */
+.edit-ticket-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Title Styling */
+  .edit-ticket-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 22px;
+  }
+  
+  /* Form Styling */
+  .edit-ticket-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Input, Textarea, Select Styling */
+  .edit-ticket-container input,
+  .edit-ticket-container textarea,
+  .edit-ticket-container select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Textarea Styling */
+  .edit-ticket-container textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  /* Select Dropdown Styling */
+  .edit-ticket-container select {
+    cursor: pointer;
+    background: #fff;
+  }
+  
+  /* Button Styling */
+  .edit-ticket-container button {
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  /* Button Hover Effect */
+  .edit-ticket-container button:hover {
+    background: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .edit-ticket-container {
+      width: 90%;
+      padding: 15px;
+    }
+  }
+  

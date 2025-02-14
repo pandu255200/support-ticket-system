@@ -1,0 +1,31 @@
+.ticket-details-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .ticket-details-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .ticket-details-container p {
+    font-size: 16px;
+    margin-bottom: 12px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .ticket-details-container strong {
+    color: #007bff;
+  }
+  
+  .ticket-details-container p:last-child {
+    margin-bottom: 0;
+  }
+  
